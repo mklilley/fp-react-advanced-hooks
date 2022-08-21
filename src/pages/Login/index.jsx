@@ -21,9 +21,10 @@ export default function Login() {
         <form onSubmit={handleSubmit}>
             <input
                 type="text"
-                placeholder="username"
                 onChange={handleInput}
                 value={inputValue}
+                placeholder="username"
+                autoComplete="off"
             />
             <br />
             <input type="submit" />
