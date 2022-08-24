@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route } from "react-router-dom";
 import { useAuth } from "../../contexts";
 
-export default function Profile() {
+export default function Home() {
     const { user } = useAuth();
     return (
         <>
