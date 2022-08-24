@@ -14,7 +14,7 @@ export default function Login() {
 
     async function handleSubmit(e) {
         e.preventDefault();
-        await setUser(inputValue);
+        setUser(inputValue);
         goTo("/");
     }
 
